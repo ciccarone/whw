@@ -1,0 +1,40 @@
+/*---------------------------------------------------------------------------------
+
+ Theme Name:   WHW
+ Theme URI:
+ Description:  WHW theme
+ Author:       Tony Ciccarone
+ Author URI:   https://tonyciccarone.com
+ Template:     Divi
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+
+------------------------------ ADDITIONAL CSS HERE ------------------------------*/
+#main-header:not(.et-fixed-header) #page-container {
+  padding-top: 32px !important;
+}
+#main-header:not(.et-fixed-header) #et-top-navigation {
+  padding-top: 0 !important;
+}
+#main-header:not(.et-fixed-header) #top-menu-nav {
+  position: relative;
+  top: 53px;
+}
+#main-header:not(.et-fixed-header) li:not(.centered-inline-logo-wrap) {
+  position: relative;
+  top: -22px;
+}
+#main-header:not(.et-fixed-header) .nav li ul {
+  margin-top: -31px;
+}
+#main-header:not(.et-fixed-header) #et_top_search {
+  top: 28px;
+}
+
+body:not(.home):not(.page-id-5210):not(.page-id-5260):not(.page-id-5147) .page .entry-content .et_pb_module.et_pb_bg_layout_light:first-child {
+  margin-top: 64px;
+  font-size: 3em;
+}
+
+/*# sourceMappingURL=style.css.map */
